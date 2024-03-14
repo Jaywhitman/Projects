@@ -1,0 +1,22 @@
+Part 1
+mkdir first
+cd first
+touch person.txt
+mv person.txt another.txt
+cp another.txt copy.txt
+rm copy.txt
+cp -r first second
+rm -rf second
+
+part 2
+man takes you to manual/ man rm. you can use commandD or ctrl ^-D, B or ctrl ^-B, or U or ctrl ^-U keys and hit Q 
+The -l list files in a list format. The -a list all and hidden files and folders
+ctrl left/right
+ctrl e
+ctrl a 
+ctrl delete
+The terminal is an interface to the shell that makes a way to interact with the environment. The shell execute or handles the command.
+A complete location of where a file or folder is starting from the root directory.
+A path starting at current location of files and folders.
+Additional functions to a command -l for list, -a for all lists, and -r for removing folders.
+f forces the removal while -r remove folders and recursively go through each folder.
